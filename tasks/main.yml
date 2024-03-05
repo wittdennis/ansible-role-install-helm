@@ -19,7 +19,7 @@
     group: root
     mode: "0644"
   notify: Unarchive helm binary
-  when: helm_version != current_helm_version.stdout | default(false)
+  when: install_helm__version != current_helm_version.stdout | default(false)
 
 - name: INSTALL HELM | Flush handlers
   ansible.builtin.meta: flush_handlers
