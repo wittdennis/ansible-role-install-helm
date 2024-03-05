@@ -1,7 +1,7 @@
 ---
 - name: INSTALL HELM | Unarchive helm binary
   ansible.builtin.unarchive:
-    src: /tmp/helm-{{ helm__version }}-linux-{{ install_helm__arch }}.tar.gz
+    src: /tmp/helm-{{ install_helm__version }}-linux-{{ install_helm__arch }}.tar.gz
     dest: /tmp
     remote_src: true
   listen: Unarchive helm binary
