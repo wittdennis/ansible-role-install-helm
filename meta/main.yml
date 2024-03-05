@@ -3,6 +3,8 @@ galaxy_info:
   description: Role to install Helm
   license: MIT
   min_ansible_version: "2.1"
+  namespace: wittdennis
+  role_name: install_helm
   platforms:
   - name: Fedora
     versions:
