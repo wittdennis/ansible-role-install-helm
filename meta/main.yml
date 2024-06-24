@@ -6,19 +6,19 @@ galaxy_info:
   namespace: wittdennis
   role_name: install_helm
   platforms:
-  - name: Fedora
-    versions:
-    - all
-  - name: Ubuntu
-    versions:
-    - all
-  - name: Debian
-    versions:
-      - all
-  - name: GenericLinux
-    versions:
-      - all
+    - name: Fedora
+      versions:
+        - all
+    - name: Ubuntu
+      versions:
+        - all
+    - name: Debian
+      versions:
+        - all
+    - name: GenericLinux
+      versions:
+        - all
 
-  galaxy_tags: [helm, tool-installer]
+  galaxy_tags: [helm, installer]
 
 dependencies: []
