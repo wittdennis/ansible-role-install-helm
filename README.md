@@ -11,7 +11,7 @@ None.
 Role Variables
 --------------
 
-`install_helm__version` - Version of helm to install (Default: v3.14.0)
+`install_helm_version` - Version of helm to install (Default: v3.14.0)
 
 Dependencies
 ------------
@@ -24,7 +24,7 @@ Example Playbook
 ```yaml
 - hosts: servers
       roles:
-         - { role: wittdennis.install_helm, install_helm__version: v3.14.0 }
+         - { role: wittdennis.install_helm, install_helm_version: v3.14.0 }
 ```
 
 License

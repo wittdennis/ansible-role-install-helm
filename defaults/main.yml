@@ -1,2 +1,2 @@
 ---
-install_helm__version: v3.14.0
+install_helm_version: v3.14.0 # renovate: datasource=github-tags depName=helm/helm versioning=semver

@@ -1,2 +1,2 @@
 ---
-install_helm__arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+install_helm_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"

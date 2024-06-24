@@ -1,7 +1,7 @@
 ---
 - name: INSTALL HELM | Set common facts
   ansible.builtin.set_fact:
-    helm_url: https://get.helm.sh/helm-{{ install_helm__version }}-linux-{{ install_helm__arch }}.tar.gz
+    helm_url: https://get.helm.sh/helm-{{ install_helm_version }}-linux-{{ install_helm_arch }}.tar.gz
 
 - name: INSTALL HELM | Set current helm version
   ansible.builtin.command:
@@ -19,7 +19,7 @@
     group: root
     mode: "0644"
   notify: Unarchive helm binary
-  when: install_helm__version != current_helm_version.stdout | default(false)
+  when: install_helm_version != current_helm_version.stdout | default(false)
 
 - name: INSTALL HELM | Flush handlers
   ansible.builtin.meta: flush_handlers
@@ -32,10 +32,10 @@
 
 - name: INSTALL HELM | Delete helm archive
   ansible.builtin.file:
-    path: /tmp/helm-{{ install_helm__version }}-linux-{{ install_helm__arch }}.tar.gz
+    path: /tmp/helm-{{ install_helm_version }}-linux-{{ install_helm_arch }}.tar.gz
     state: absent
 
 - name: INSTALL HELM | Delete unarchived helm files
   ansible.builtin.file:
-    path: /tmp/linux-{{ install_helm__arch }}/
+    path: /tmp/linux-{{ install_helm_arch }}/
     state: absent
