@@ -24,12 +24,6 @@
 - name: INSTALL HELM | Flush handlers
   ansible.builtin.meta: flush_handlers
 
-- name: INSTALL HELM | Create symlink for helm in /usr/local/sbin
-  ansible.builtin.file:
-    state: link
-    src: /usr/local/bin/helm
-    dest: /usr/local/sbin/helm
-
 - name: INSTALL HELM | Delete helm archive
   ansible.builtin.file:
     path: /tmp/helm-{{ install_helm_version }}-linux-{{ install_helm_arch }}.tar.gz
