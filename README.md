@@ -1,25 +1,20 @@
-Install Helm
-=========
+# install_helm
 
 Role to install [Helm](https://helm.sh/).
 
-Requirements
-------------
+## Requirements
 
 None.
 
-Role Variables
---------------
+## Role Variables
 
 `install_helm_version` - Version of helm to install (Default: v3.14.0)
 
-Dependencies
-------------
+## Dependencies
 
 None.
 
-Example Playbook
-----------------
+## Example Playbook
 
 ```yaml
 - hosts: servers
@@ -27,7 +22,6 @@ Example Playbook
          - { role: wittdennis.install_helm, install_helm_version: v3.14.0 }
 ```
 
-License
--------
+## License
 
 MIT
