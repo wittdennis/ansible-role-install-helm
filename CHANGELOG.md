@@ -2,6 +2,17 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.2](https://github.com/wittdennis/ansible-role-install-helm/compare/ba2deaf6f7c607a64d85c404fcc409d190f6eacc..2.0.2) - 2024-07-18
+#### Bug Fixes
+- reintroduce symlink for helm as it is need when using helm ansible task as root - ([5435272](https://github.com/wittdennis/ansible-role-install-helm/commit/5435272dae32f9771720b6a8bdba3c49ef47c924)) - Dennis Witt
+#### Miscellaneous Chores
+- **(deps)** update dependency helm/helm to v3.15.3 - ([1b314be](https://github.com/wittdennis/ansible-role-install-helm/commit/1b314be9954ae13fc0d3a05d957761cf854ad39c)) - wittdennis-renovate[bot]
+- **(deps)** update ansible/ansible-lint action to v24.7.0 - ([ba2deaf](https://github.com/wittdennis/ansible-role-install-helm/commit/ba2deaf6f7c607a64d85c404fcc409d190f6eacc)) - wittdennis-renovate[bot]
+#### Style
+- add pre-commit-hooks - ([cc801b8](https://github.com/wittdennis/ansible-role-install-helm/commit/cc801b87afb4a0ef75609e1bab9693391ca2a090)) - Dennis Witt
+
+- - -
+
 ## [2.0.1](https://github.com/wittdennis/ansible-role-install-helm/compare/aa3f6d419406ecc5badc6ac8ac749e2a7ded099f..2.0.1) - 2024-06-29
 #### Bug Fixes
 - remove sbin link for helm - ([8796a3d](https://github.com/wittdennis/ansible-role-install-helm/commit/8796a3dfd175fad0e925cc181d8901e75eea0c39)) - Dennis Witt
