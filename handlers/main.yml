@@ -5,6 +5,8 @@
     dest: /tmp
     remote_src: true
   listen: Unarchive helm binary
+  when:
+  - not ansible_check_mode
 
 - name: Copy unarchived helm binary to /usr/local/bin
   ansible.builtin.copy:
@@ -13,3 +15,5 @@
     mode: "0755"
     remote_src: true
   listen: Unarchive helm binary
+  when:
+  - not ansible_check_mode
