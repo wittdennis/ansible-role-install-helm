@@ -2,6 +2,14 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.13](https://github.com/wittdennis/ansible-role-install-helm/compare/95e0902904e1db896f9682dd6f9f4cd5781a76b9..2.0.13) - 2025-09-16
+#### Bug Fixes
+- make check mode posible on ansible run - ([95e0902](https://github.com/wittdennis/ansible-role-install-helm/commit/95e0902904e1db896f9682dd6f9f4cd5781a76b9)) - tobkern
+#### Miscellaneous Chores
+- **(deps)** update pre-commit hook ansible-community/ansible-lint to v25.9.0 - ([a3ba968](https://github.com/wittdennis/ansible-role-install-helm/commit/a3ba968fe3803db3af9448dc31a7b057b277096f)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.12](https://github.com/wittdennis/ansible-role-install-helm/compare/69908c5f9777bf207af82192d18846f2c5c9a8aa..2.0.12) - 2025-09-12
 #### Bug Fixes
 - **(deps)** update dependency helm/helm to v3.19.0 - ([8250113](https://github.com/wittdennis/ansible-role-install-helm/commit/825011363e00b9796fd9e62e0538e705d94e86eb)) - wittdennis-renovate[bot]
