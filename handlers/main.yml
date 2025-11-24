@@ -1,3 +1,4 @@
+# code: language=ansible
 ---
 - name: Unarchive helm binary
   ansible.builtin.unarchive:
@@ -6,7 +7,7 @@
     remote_src: true
   listen: Unarchive helm binary
   when:
-  - not ansible_check_mode
+    - not ansible_check_mode
 
 - name: Copy unarchived helm binary to /usr/local/bin
   ansible.builtin.copy:
@@ -16,4 +17,4 @@
     remote_src: true
   listen: Unarchive helm binary
   when:
-  - not ansible_check_mode
+    - not ansible_check_mode
