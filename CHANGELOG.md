@@ -2,6 +2,23 @@
 All notable changes to this project will be documented in this file. See [conventional commits](https://www.conventionalcommits.org/) for commit guidelines.
 
 - - -
+## [2.0.24](https://github.com/wittdennis/ansible-role-install-helm/compare/d5b7541052b5ffa3e74f9749ce7c96474a82d820..2.0.24) - 2026-08-15
+#### Bug Fixes
+- (**deps**) update dependency helm/helm to v4.2.4 - ([262a513](https://github.com/wittdennis/ansible-role-install-helm/commit/262a5135afefff6329ac036ba7efe01f62bfd121)) - wittdennis-renovate[bot]
+#### Continuous Integration
+- (**deps**) update wittdennis/pipelines action to v2.0.43 - ([87d29a1](https://github.com/wittdennis/ansible-role-install-helm/commit/87d29a18408b478fabe8738d0d30f058e853c53b)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.42 - ([b9f81be](https://github.com/wittdennis/ansible-role-install-helm/commit/b9f81be1d7d3edea41ecad8bebca067aa7cd6015)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.41 - ([98171a6](https://github.com/wittdennis/ansible-role-install-helm/commit/98171a69a010cdb320fb6e26570ac88124c9765c)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.40 - ([b6eb001](https://github.com/wittdennis/ansible-role-install-helm/commit/b6eb0018cbe24ac07b5e9833549313c287eecd36)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.39 - ([b1db5a5](https://github.com/wittdennis/ansible-role-install-helm/commit/b1db5a54b81cc3f5c6696c946679cecb2963464d)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.38 - ([9e86665](https://github.com/wittdennis/ansible-role-install-helm/commit/9e86665b8e4f0f05d9dcd1cdc02e209e29b22116)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.37 - ([5ab54b7](https://github.com/wittdennis/ansible-role-install-helm/commit/5ab54b705407eca59b1022333b02b396585d0a62)) - wittdennis-renovate[bot]
+#### Miscellaneous Chores
+- (**deps**) update pre-commit hook ansible-community/ansible-lint to v26.8.0 - ([76fba0e](https://github.com/wittdennis/ansible-role-install-helm/commit/76fba0ecc5a391575321097f21f8969c4fad8e55)) - wittdennis-renovate[bot]
+- (**deps**) update wittdennis/pipelines action to v2.0.36 - ([d5b7541](https://github.com/wittdennis/ansible-role-install-helm/commit/d5b7541052b5ffa3e74f9749ce7c96474a82d820)) - wittdennis-renovate[bot]
+
+- - -
+
 ## [2.0.23](https://github.com/wittdennis/ansible-role-install-helm/compare/181f655db0f023014545826cd18880025a2a8ce7..2.0.23) - 2026-07-10
 #### Bug Fixes
 - (**deps**) update dependency helm/helm to v4.2.3 - ([2d6337f](https://github.com/wittdennis/ansible-role-install-helm/commit/2d6337fe50951b6bcb4009d212bae004fdf24bd0)) - wittdennis-renovate[bot]
